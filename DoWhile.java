@@ -1,11 +1,13 @@
 public class DoWhile {
     public static void main(String[] args) {
-        int numerowhile = 0;
+        int numerowhile = 3;
 
         do {
-            System.out.println(numerowhile);
             numerowhile ++;
+            System.out.println(numerowhile);
+            
         } while ( numerowhile < 3);
 
     }
 }
+
